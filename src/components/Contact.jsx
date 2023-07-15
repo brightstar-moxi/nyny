@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_aql4jdv',
+       'template_giwmu5n',
         {
           from_name: form.name,
           to_name: "Brightstar Moxiz",
@@ -42,8 +42,11 @@ const Contact = () => {
           to_email: "brightstarmoxiz2@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+       '26drJDkUAf5MsVFx0'
       )
+      //:template_giwmu5n
+      //service_aql4jdv
+      //26drJDkUAf5MsVFx0
       .then(
         () => {
           setLoading(false);
