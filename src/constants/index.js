@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/brightstar-moxi",
   },
   {
     name: "Trip Guide",
